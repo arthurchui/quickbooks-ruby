@@ -67,6 +67,7 @@ require 'quickbooks/model/sales_receipt'
 require 'quickbooks/model/payment'
 require 'quickbooks/model/payment_method'
 require 'quickbooks/model/credit_memo'
+require 'quickbooks/model/refund_receipt'
 require 'quickbooks/model/bill_line_item'
 require 'quickbooks/model/bill'
 require 'quickbooks/model/bill_payment_line_item'
@@ -96,7 +97,6 @@ require 'quickbooks/model/fault'
 require 'quickbooks/model/batch_request'
 require 'quickbooks/model/batch_response'
 require 'quickbooks/model/preferences'
-require 'quickbooks/model/refund_receipt'
 require 'quickbooks/model/change_model'
 require 'quickbooks/model/invoice_change'
 require 'quickbooks/model/customer_change'
@@ -105,6 +105,7 @@ require 'quickbooks/model/item_change'
 require 'quickbooks/model/reports'
 require 'quickbooks/model/credit_memo_change'
 require 'quickbooks/model/payment_change'
+require 'quickbooks/model/refund_receipt_change'
 
 
 #== Services
@@ -151,6 +152,7 @@ require 'quickbooks/service/item_change'
 require 'quickbooks/service/reports'
 require 'quickbooks/service/credit_memo_change'
 require 'quickbooks/service/payment_change'
+require 'quickbooks/service/refund_receipt_change'
 
 module Quickbooks
   @@sandbox_mode = false
